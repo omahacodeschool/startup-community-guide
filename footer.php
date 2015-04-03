@@ -29,9 +29,12 @@
   </footer><!--end footer-->
   
   
-  <!-- JavaScript -->
-  <script src="js/parallax.js" type="text/javascript" charset="utf-8"></script>
-
+ <!--Jquery.js -->  
+ <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/jquery.js"></script>
+ 
+ <!--Parallax.js --> 
+ <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/parallax.js"></script>
+ 
 <?php wp_footer(); ?>
 
 </body>

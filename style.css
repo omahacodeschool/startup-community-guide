@@ -119,7 +119,7 @@ i{
 #parallax1 {
   position: fixed;
   z-index: -30;
-  background: url('../images/Optimized-DSC_0022.JPG');
+  background: url('<?php bloginfo('template_directory'); ?>/images/Optimized-DSC_0022.JPG');   
   height: 100%;
   width: 100%;
 }

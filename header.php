@@ -8,10 +8,15 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title><?php bloginfo( 'name' ); ?> | Welcome</title>
+  
+  
+<!--Foundations Style Sheet -->
   <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/foundation-5.5.1/css/foundation.css" media="screen" />
     
+<!-- Style Sheet -->
   <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" media="screen" />
-    
+
+       
   <script src="js/vendor/modernizr.js"></script>
 
     
@@ -29,7 +34,6 @@
     
       <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
       
-      <script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
       
 </head>
 
