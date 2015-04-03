@@ -108,7 +108,7 @@ i{
 }
 
 .tile {
-  background:url('../images/seamlesspattern.jpg');
+  background:url('images/seamlesspattern.jpg');
 }
 
 .firstrowpic {
@@ -119,7 +119,7 @@ i{
 #parallax1 {
   position: fixed;
   z-index: -30;
-  background: url('<?php bloginfo('template_directory'); ?>/images/Optimized-DSC_0022.JPG');   
+  background: url('images/Optimized-DSC_0022.JPG');   
   height: 100%;
   width: 100%;
 }
@@ -229,7 +229,7 @@ i.grey-icon:hover {
 }
 
 .grey-tile {
-  background: url("../images/seamlesspatterngrey.jpg");
+  background: url("images/seamlesspatterngrey.jpg");
 }
 
 .bottom-shadow{
@@ -239,7 +239,7 @@ i.grey-icon:hover {
   
 .chevron {
 		background-attachment: scroll,							scroll,				fixed;
-    background-image: url("../images/top-3200.svg");
+    background-image: url("images/top-3200.svg");
 		background-position: bottom center,					top left,				center center;
 		background-repeat: repeat-x,						repeat,					no-repeat;
 		background-size: 3200px 460px,					auto,					cover;
@@ -260,7 +260,7 @@ i.grey-icon:hover {
   #parallax1 {
     position: fixed;
     z-index: -30;
-    background: url('../images/mobile_background.png');
+    background: url('images/mobile_background.png');
     height: 100%;
     max-width: 100%;
   }
@@ -382,7 +382,7 @@ p.circle-text {
     -moz-border-radius: 50%; 
     -webkit-border-radius: 50%; 
     border-radius: 50%;
-    background: url('../images/seamlesspattern.jpg') ;
+    background: url('images/seamlesspattern.jpg') ;
     box-shadow: 5px 5px 10px #006666;  
 }
 
