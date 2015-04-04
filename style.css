@@ -103,10 +103,6 @@ i{
   font-size: 200px;
 }
 
-.bigger_icon {
-  
-}
-
 .tile {
   background:url('images/seamlesspattern.jpg');
 }
@@ -435,5 +431,9 @@ i.go_up{
 .map-iframe {
   width: 100%;
   height: 560px;
+}
+
+.guide-content {
+  padding: 1em;
 }
 
