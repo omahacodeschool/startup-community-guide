@@ -130,7 +130,7 @@ i{
 }
 /* Lists */
 
-.linklists ul{
+.linklists_container ul{
   list-style-type: none;
   margin-left: 0rem;
 }
