@@ -301,7 +301,7 @@ html, body {
 
 .width-40 {
   width: 40%;
-  min-width: 300px;
+  min-width: 150px;
   margin: 0 auto;
 }
 

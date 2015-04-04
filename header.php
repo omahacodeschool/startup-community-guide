@@ -41,19 +41,25 @@
   <div class="height-50 white bottom-shadow">
     <div class="row"> <!-- This may be unneccesary-->
       <div class="centered top-margin-push width-40">
-        <img src="<?php bloginfo('template_directory'); ?>/images/black402logo600px.png">
+        <img src="<?php bloginfo('template_directory'); ?>/images/402blacksm.png">
       </div><!-- end image -->
       
       <!--visible nav -->
       <nav class="header-nav centered">
         <ul>
-          <li><a href="#welcome">Welcome Guide</a></li><li><a href="#about">About Omaha</a></li><li><a href="#">Startup</a></li><li><a href="#map">Map</a></li>
+          <li><a href="#welcome">Welcome Guide</a></li>
+          <li><a href="#about">About Omaha</a></li>
+          <li><a href="#">Startup</a></li>
+          <li><a href="#map">Map</a></li>
         </ul>
       </nav>
       <!--js nav -->      
       <nav class="fixed">
         <ul>
-          <li><a href="#">Welcome Guide</a></li><li><a href="#">About Omaha</a></li><li><a href="#">Startup</a></li><li><a href="#">Map</a></li>
+          <li><a href="#">Welcome Guide</a></li>
+          <li><a href="#">About Omaha</a></li>
+          <li><a href="#">Startup</a></li>
+          <li><a href="#">Map</a></li>
         </ul>
       </nav>
     
