@@ -39,7 +39,7 @@ get_header();
                 <ul class="linklists">    
                   <?php while ( have_rows('link_list') ) : the_row(); ?>
                     <li>
-                      <a href="<?php the_sub_field('link_url'); ?>">
+                      <a href="<?php the_sub_field('link_url'); ?>" target="_blank">
                         <?php the_sub_field('link_text'); ?>
                       </a>
                     </li>
