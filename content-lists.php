@@ -7,13 +7,16 @@
       </div> <!-- end large text -->
 
     </div><!-- end first column -->
-    
+
+
+
     <div class="top-margin-push column small-12 medium-6 large-6">
       <div class="guide-content">
         <h2><?php echo get_field('list_description_title'); ?></h2>
         <p><?php echo get_field('list_description_content'); ?></p>
       </div><!-- end content -->
     </div><!-- end second column -->
+    
 
     
     
