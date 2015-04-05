@@ -18,7 +18,14 @@ get_header();
 
    if ( have_posts() ) :
     while ( have_posts()) : the_post();
-      get_template_part('content', 'lists');
+      $template_part = get_post_meta($post->ID, '_wp_page_template')[0];
+      
+      if ($template_part == 'page-lists.php') {
+        get_template_part('content', 'lists');
+      }
+      elseif ($template_part == 'page-map.php') {
+        get_template_part('content', 'map');
+      }
     endwhile;
    endif;
 
@@ -52,11 +59,6 @@ get_header();
   
   <!--START MAP-->
   
-  
-  <div class="white padding-auto bottom-shadow" id="map">
-    <iframe class="map-iframe" src="https://startupgenome.co/lens/location/omaha-ne-usa?embed=1&hide_filters=true&hide_right_side=true&global_search=false" frameborder="0" allowfullscreen>
-    </iframe>
-  </div><!--end map-->
 
 <?php
 get_footer(); 
