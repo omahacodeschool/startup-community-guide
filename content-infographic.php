@@ -3,14 +3,14 @@
       <div class="row">
         <div class="column small-12 medium-6 large-6 top-margin-push">
           <div class="large-text">
-            <h1 class="bigfont rotate line-height-scrunch">About Omaha</h1>
+            <h1 class="bigfont rotate line-height-scrunch"><?php echo get_field('infographic_title'); ?></h1>
           </div> <!-- end large text -->
         
         </div><!--end column one-->
       
         <div class="column small-12 medium-6 large-6 top-margin-push">
           <div class="circle centered">
-            <a href="#"> <p class="circle-text"><i class="fa fa-line-chart grey-icon"></i></p></a>
+            <a href="<?php echo get_field('infographic_url'); ?>"> <p class="circle-text"><i class="fa fa-line-chart grey-icon"></i></p></a>
           </div><!--end circle-image-->
         </div><!--end column one-->
    
