@@ -10,20 +10,19 @@ get_header();
     </div><!--end first row-->
   </div><!--end height-50 wrapper-->
   
-  
   <?php
 
-  $pages = new WP_Query(array(
-   'post_type' => 'page'
-  ));
+   query_posts(array(
+    'post_type' => 'page'
+   ));
 
-  if ( $pages -> have_posts() ) :
-   while ($pages -> have_posts()) : $pages -> the_post();
-     get_template_part('content', 'lists');
-   endwhile;
-  endif;
+   if ( have_posts() ) :
+    while ( have_posts()) : the_post();
+      get_template_part('content', 'lists');
+    endwhile;
+   endif;
 
-  ?>
+   ?>
   
   <!--START ABOUT OMAHA-->
 
