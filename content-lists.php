@@ -7,24 +7,16 @@
       </div> <!-- end large text -->
 
     </div><!-- end first column -->
-
-
-
+  
     <div class="top-margin-push column small-12 medium-6 large-6">
-      <div class="guide-content">
-        <h2><?php echo get_field('list_description_title'); ?></h2>
-        <p><?php echo get_field('list_description_content'); ?></p>
+      <div class="guide-content"><!--This is just showing that the 100% is working-->
+        <h2>Content Title</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
       </div><!-- end content -->
     </div><!-- end second column -->
     
-
-    
-    
-   
-    
-
-          
-     
     
     <?php // Begin repeater field: ?>
     <?php if( have_rows('links') ): ?>
