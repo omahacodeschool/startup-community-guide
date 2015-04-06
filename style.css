@@ -356,6 +356,27 @@ nav.fixed ul li {
   background: rgba(255,255,255, .9);
 }
 
+.fixed_nav {
+  height: 10%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  display: none;
+  background: rgba(255,255,255, .9);
+  box-shadow: 2px 2px 10px rgba(0,0,0,.5);
+}
+
+.fixed_nav ul{
+  text-align: center;
+}
+
+.fixed_nav ul li {
+  display: inline-block;
+  padding: 30px;
+}
+
+
 .fixed{
   position: fixed;
   top: 0;
@@ -397,6 +418,7 @@ p.circle-text {
   padding: 25px 0;
 }
 
+/*little UX transparent button to go back to top of page*/
 .go-top{
   position: fixed;
   bottom: 0;
@@ -415,6 +437,10 @@ i.go_up{
   color: rgba(0,0,0, .3);
 }
 
+i.go_up:hover{
+  color: #cc3366;
+}
+
 #little-nav{
   margin: 0px -10px -20px 14px;
   color: rgba(0,0,0, .3);
@@ -423,6 +449,8 @@ i.go_up{
 #little-nav:hover{
   color: #cc3366;
 }
+
+/*end UX transparent button to go to top of page*/
 
 .padding-auto{
   padding: 10% 0% 10% 0%;
@@ -437,3 +465,7 @@ i.go_up{
   padding: 1em;
 }
 
+.listIcons{
+  margin: 3px;
+  color: rgba(0,0,0, .1);
+}

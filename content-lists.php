@@ -27,11 +27,10 @@
           <div class="guide-content"><!--This is just showing that the 100% is working-->
             <h2><?php the_sub_field('link_list_title'); ?></h2>
             <?php if( have_rows('link_list') ): ?>
-              <ul class="linklists">    
+              <ul class="linklists fa-ul">    
                 <?php while ( have_rows('link_list') ) : the_row(); ?>
                   <li>
-                    <a href="<?php the_sub_field('link_url'); ?>" target="_blank">
-                      <?php the_sub_field('link_text'); ?>
+                    <a href="<?php the_sub_field('link_url'); ?>" target="_blank"><i class="fa-li fa fa-star fa-1.5x listIcons"></i><?php the_sub_field('link_text'); ?>
                     </a>
                   </li>
                 <?php endwhile; ?>

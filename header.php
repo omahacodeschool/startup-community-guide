@@ -38,6 +38,15 @@
 </head>
 
 <body>
+  
+  <!--js nav -->      
+      <div class="fixed_nav header-nav" id="jsNav">
+        <ul>
+          <li><a href="#welcome">Welcome Guide</a></li><li><a href="#about">About Omaha</a></li><li><a href="#">Startup</a></li><li><a href="#map">Map</a></li>
+        </ul>
+      </div>
+  <!--end js nav -->
+  
   <div class="height-50 white bottom-shadow">
     <div class="row"> <!-- This may be unneccesary-->
       <div class="centered top-margin-push width-40">
