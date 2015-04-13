@@ -472,7 +472,7 @@ i.go_up:hover{
 
 }
 
-@media (max-width: 475px){
+@media (max-width: 525px){
   .fixed_nav a {
     font-size: 15px;
   }
@@ -480,7 +480,7 @@ i.go_up:hover{
 
 }
 
-@media (max-height: 475px){
+@media (max-height: 550px){
   .width-40 {
     width: 30%;
     min-width: 80px;
