@@ -1,4 +1,4 @@
-<div class="tile padding-auto bottom-shadow" id="welcome">
+<div class="tile padding-auto bottom-shadow" id="<?php echo get_field('list_nav_anchor'); ?>">
   <div class="row">
     <div class="top-margin-push column small-12 medium-6 large-6">
     

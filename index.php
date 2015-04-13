@@ -1,5 +1,5 @@
 <?php
-get_header();
+get_header("customheader");
 ?>
 
   <div class="go-top" id="go-top"><a href="#"><p id="little-nav">Top</p><br><i class="fa fa-arrow-circle-up fa-2x go_up"></i> </a></div><!--ux nav tool -->
