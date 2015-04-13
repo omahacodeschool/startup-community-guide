@@ -42,7 +42,7 @@
   <!--js nav -->      
       <div class="fixed_nav header-nav" id="jsNav">
         <ul>
-          <li><a href="#welcome">Welcome Guide</a></li><li><a href="#about">About Omaha</a></li><li><a href="#">Startup</a></li><li><a href="#map">Map</a></li>
+          <li><a class="scroll_It" href="#welcome">Welcome Guide</a></li><li><a class="scroll_It" href="#map">Map</a></li><li><a class="scroll_It" href="#about">About Omaha</a></li>
         </ul>
       </div>
   <!--end js nav -->
@@ -56,21 +56,13 @@
       <!--visible nav -->
       <nav class="header-nav centered">
         <ul>
-          <li><a href="#welcome">Welcome Guide</a></li>
-          <li><a href="#about">About Omaha</a></li>
-          <li><a href="#">Startup</a></li>
-          <li><a href="#map">Map</a></li>
+          <li><a class="scroll_It" href="#welcome">Welcome Guide</a></li>
+          <li><a class="scroll_It" href="#map">Map</a></li>
+          <li><a class="scroll_It" href="#about">About Omaha</a></li>
         </ul>
       </nav>
       <!--js nav -->      
-      <nav class="fixed">
-        <ul>
-          <li><a href="#">Welcome Guide</a></li>
-          <li><a href="#">About Omaha</a></li>
-          <li><a href="#">Startup</a></li>
-          <li><a href="#">Map</a></li>
-        </ul>
-      </nav>
+
     
     </div><!--end first row-->
   </div><!--end height-50 wrapper-->
