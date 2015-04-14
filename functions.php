@@ -1,5 +1,29 @@
 <?php
-add_theme_support( 'custom-header' );
+add_theme_support( 'custom-header', array(
+  // 'default-image'          => '',
+  // 'width'                  => 0,
+  // 'height'                 => 0,
+  // 'flex-height'            => false,
+  // 'flex-width'             => false,
+  // 'uploads'                => true,
+  // 'random-default'         => false,
+  // 'header-text'            => true,
+  // 'default-text-color'     => '',
+  // 'wp-head-callback'       => '',
+  // 'admin-head-callback'    => '',
+  // 'admin-preview-callback' => ''
+));
+
+add_theme_support( 'custom-background', array(
+  // 'default-color'          => '',
+  // 'default-image'          => '',
+  // 'default-repeat'         => '',
+  // 'default-position-x'     => '',
+  // 'default-attachment'     => '',
+  // 'wp-head-callback'       => '_custom_background_cb',
+  // 'admin-head-callback'    => '',
+  // 'admin-preview-callback' => ''
+));
 
 if(function_exists("register_field_group"))
 {

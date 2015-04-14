@@ -51,7 +51,9 @@
           <?php
 
            query_posts(array(
-            'post_type' => 'page'
+            'post_type' => 'page',
+            'order_by'  => 'menu_order',
+            'order'     => 'ASC'
            ));
 
            if ( have_posts() ) :
@@ -81,7 +83,9 @@
           <?php
 
            query_posts(array(
-            'post_type' => 'page'
+            'post_type' => 'page',
+            'order_by'  => 'menu_order',
+            'order'     => 'ASC'
            ));
 
            if ( have_posts() ) :
