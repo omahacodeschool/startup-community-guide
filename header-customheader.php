@@ -73,7 +73,7 @@
   <div class="height-50 white bottom-shadow">
     <div class="row"> <!-- This may be unneccesary-->
       <div class="centered top-margin-push width-40">
-        <img src="<?php bloginfo('template_directory'); ?>/images/402blacksm.png">
+        <img src="<?php header_image(); ?>">
       </div><!-- end image -->
       
       <!--visible nav -->
