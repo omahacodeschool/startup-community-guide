@@ -57,24 +57,15 @@
            if ( have_posts() ) :
             while ( have_posts()) : the_post();
               $template_part = get_post_meta($post->ID, '_wp_page_template')[0];
-      
-              if ($template_part == 'page-lists.php') { ?>
-              <li><a class="scroll_It" href="#<?php echo get_field('list_nav_anchor'); ?>"><?php echo get_field('list_nav'); ?></a></li>
+            ?>
+            
+              <li><a class="scroll_It" href="#jump_to_<?php the_ID(); ?>"><?php the_title(); ?></a></li>
               
-              <?php
-              }
-              elseif ($template_part == 'page-map.php') { ?>
-              <li><a class="scroll_It" href="#<?php echo get_field('map_nav_anchor'); ?>"><?php echo get_field('map_nav'); ?></a></li>
-              <?php
-              }
-              elseif ($template_part == 'page-infographic.php') { ?>
-              <li><a class="scroll_It" href="#<?php echo get_field('info_nav_anchor'); ?>"><?php echo get_field('info_nav'); ?></a></li>
-              <?php
-              }
+            <?php
             endwhile;
-           endif;
-
-           ?>
+          endif;
+          ?>
+          
         </ul>
       </div>
   <!--end js nav -->
@@ -89,26 +80,22 @@
       <nav class="header-nav centered">
         <ul>
           <?php
+
+           query_posts(array(
+            'post_type' => 'page'
+           ));
+
            if ( have_posts() ) :
             while ( have_posts()) : the_post();
               $template_part = get_post_meta($post->ID, '_wp_page_template')[0];
-      
-              if ($template_part == 'page-lists.php') { ?>
-              <li><a class="scroll_It" href="#<?php echo get_field('list_nav_anchor'); ?>"><?php echo get_field('list_nav'); ?></a></li>
-              <?php
-              }
-              elseif ($template_part == 'page-map.php') { ?>
-              <li><a class="scroll_It" href="#<?php echo get_field('map_nav_anchor'); ?>"><?php echo get_field('map_nav'); ?></a></li>
-              <?php
-              }
-              elseif ($template_part == 'page-infographic.php') { ?>
-              <li><a class="scroll_It" href="#<?php echo get_field('info_nav_anchor'); ?>"><?php echo get_field('info_nav'); ?></a></li>
-              <?php
-              }
+            ?>
+            
+              <li><a class="scroll_It" href="#jump_to_<?php the_ID(); ?>"><?php the_title(); ?></a></li>
+              
+            <?php
             endwhile;
-           endif;
-
-           ?>
+          endif;
+          ?>
         </ul>
       </nav>
       <!--js nav -->      
