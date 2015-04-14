@@ -56,7 +56,6 @@
 
            if ( have_posts() ) :
             while ( have_posts()) : the_post();
-              $template_part = get_post_meta($post->ID, '_wp_page_template')[0];
             ?>
             
               <li><a class="scroll_It" href="#jump_to_<?php the_ID(); ?>"><?php the_title(); ?></a></li>
@@ -87,7 +86,6 @@
 
            if ( have_posts() ) :
             while ( have_posts()) : the_post();
-              $template_part = get_post_meta($post->ID, '_wp_page_template')[0];
             ?>
             
               <li><a class="scroll_It" href="#jump_to_<?php the_ID(); ?>"><?php the_title(); ?></a></li>
