@@ -39,12 +39,30 @@
 
 <body>
   
+  <?php
+  // Start the loop.
+  while ( have_posts() ) : the_post();
+  ?>
+  
+  <?php // Begin repeater field: ?>
+  <?php if( have_rows('navigation_links') ): ?>
+  
   <!--js nav -->      
       <div class="fixed_nav header-nav" id="jsNav">
         <ul>
-          <li><a class="scroll_It" href="#welcome">Welcome Guide</a></li><li><a class="scroll_It" href="#map">Map</a></li><li><a class="scroll_It" href="#about">About Omaha</a></li>
+          <?php while ( have_rows('navigation_links') ) : the_row(); ?> 
+          <li><a class="scroll_It" href="<?php the_sub_field('navigation_link_url'); ?>"><?php the_sub_field('navigation_link_name'); ?></a></li><li><a class="scroll_It" href="#map">Map</a></li>
         </ul>
       </div>
+      
+        <?php endwhile; ?>
+      <?php endif; ?>
+      <?php // End repeater field: ?>
+
+      <?php
+      // End the loop.
+      endwhile;
+      ?>
   <!--end js nav -->
   
   <div class="height-50 white bottom-shadow">
