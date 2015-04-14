@@ -251,18 +251,6 @@ i.grey-icon:hover {
   background: #00cccc;
 }
 
-/*maedi queries*/
-
-@media (max-width: 1000px){
-  #parallax1 {
-    position: fixed;
-    z-index: -30;
-    background: url('images/mobile_background.png');
-    height: 100%;
-    max-width: 100%;
-  }
-
-}
 
 /* CSS STRUCTURE */
 
@@ -469,4 +457,32 @@ i.go_up:hover{
 .listIcons{
   margin: 3px;
   color: rgba(0,0,0, .1);
+}
+
+/*media queries*/
+
+@media (max-width: 1200px){
+  #parallax1 {
+    position: fixed;
+    z-index: -30;
+    background: url('images/mobile_background.png');
+    height: 100%;
+    max-width: 100%;
+  }
+
+}
+
+@media (max-width: 525px){
+  .fixed_nav a {
+    font-size: 15px;
+  }
+  
+
+}
+
+@media (max-height: 550px){
+  .width-40 {
+    width: 30%;
+    min-width: 80px;
+  }
 }
