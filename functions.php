@@ -1,4 +1,6 @@
 <?php
+add_theme_support( 'custom-header' );
+
 if(function_exists("register_field_group"))
 {
 	register_field_group(array (
