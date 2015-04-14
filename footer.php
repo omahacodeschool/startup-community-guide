@@ -4,12 +4,13 @@
   <footer class="grey-tile">
     <div class="row">
       <div class="column small-12">
-        <p class="centered">
-          Built by Omaha Code School. Hosted on Flywheel.<br>
-          Want this for your city? <a href="https://github.com/omahacodeschool/startup-community-guide">Download the open source Wordpress theme.</a>
-        </p>
-        
+        <div class="centered footer-link">
+          <p>Built by Omaha Code School. Hosted on Flywheel.</p>
+          <p>Want this for your city?</p>
+          <p><a href="https://github.com/omahacodeschool/startup-community-guide">Download the open source Wordpress theme.</a></p>
+        </div>
       </div><!--end first column-->
+    </div>
   </footer><!--end footer-->
   
   

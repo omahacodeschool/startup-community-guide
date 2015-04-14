@@ -207,6 +207,15 @@ footer p {
   line-height: 5px;
 }
 
+.footer-link a {
+  color: #FFFFFF;
+}
+
+.footer-link a:hover {
+  color: #cc3366;
+}
+
+
 i {
   color: #ffffff;
   margin-left: 15px;
