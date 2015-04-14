@@ -116,3 +116,5 @@
     
     </div><!--end first row-->
   </div><!--end height-50 wrapper-->
+  
+<?php wp_reset_query(); ?>
