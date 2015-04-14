@@ -1,4 +1,4 @@
-  <div class="chevron-section" id="about"> 
+  <div class="chevron-section" id="<?php echo get_field('info_nav_anchor'); ?>"> 
     <div class="chevron">
       <div class="row">
         <div class="column small-12 medium-6 large-6 top-margin-push">
