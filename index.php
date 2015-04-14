@@ -5,7 +5,7 @@ get_header();
   <div class="go-top" id="go-top"><a href="#"><p id="little-nav">Top</p><br><i class="fa fa-arrow-circle-up fa-2x go_up"></i> </a></div><!--ux nav tool -->
   
   <div class="height-50">
-    <div id="parallax1"> <!-- This may be unnecessary-->
+    <div id="parallax1"> 
 
     </div><!--end first row-->
   </div><!--end height-50 wrapper-->

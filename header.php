@@ -53,16 +53,32 @@
         <img src="<?php bloginfo('template_directory'); ?>/images/402blacksm.png">
       </div><!-- end image -->
       
-      <!--visible nav -->
-      <nav class="header-nav centered">
-        <ul>
-          <li><a class="scroll_It" href="#welcome">Welcome Guide</a></li>
-          <li><a class="scroll_It" href="#map">Map</a></li>
-          <li><a class="scroll_It" href="#about">About Omaha</a></li>
-        </ul>
-      </nav>
-      <!--js nav -->      
+      <?php
+      // Start the loop.
+      while ( have_posts() ) : the_post();
+      ?>
 
-    
+      <?php // Begin repeater field: ?>
+      <?php if( have_rows('navigation_links') ): ?>
+
+        <!--visible nav -->
+        <nav class="header-nav centered">
+          <ul>
+            <?php while ( have_rows('navigation_links') ) : the_row(); ?> 
+              <li>
+                <a class="scroll_It" href="<?php the_sub_field('navigation_link_url'); ?>"><?php the_sub_field('navigation_link_name'); ?></a></li>
+              </ul>
+            </nav>
+      
+            <!--js nav -->      
+
+          <?php endwhile; ?>
+        <?php endif; ?>
+        <?php // End repeater field: ?>
+
+        <?php
+        // End the loop.
+        endwhile;
+        ?>
     </div><!--end first row-->
   </div><!--end height-50 wrapper-->
