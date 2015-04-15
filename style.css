@@ -468,6 +468,7 @@ i.go_up:hover{
 }
 
 /*media queries*/
+/*refactors nav links etc. for different viewports*/
 
 @media (max-width: 1200px){
   #parallax1 {
