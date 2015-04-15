@@ -1,11 +1,12 @@
 <?php
-get_header();
+get_header("customheader");
 ?>
 
   <div class="go-top" id="go-top"><a href="#"><p id="little-nav">Top</p><br><i class="fa fa-arrow-circle-up fa-2x go_up"></i> </a></div><!--ux nav tool -->
   
   <div class="height-50">
-    <div id="parallax1"> 
+
+    <div id="parallax1" style="background-image: url(<?php echo get_background_image(); ?>)"> <!-- This may be unnecessary-->
 
     </div><!--end first row-->
   </div><!--end height-50 wrapper-->
@@ -13,7 +14,9 @@ get_header();
   <?php
 
    query_posts(array(
-    'post_type' => 'page'
+    'post_type' => 'page',
+    'order_by'  => 'menu_order',
+    'order'     => 'ASC'
    ));
 
    if ( have_posts() ) :

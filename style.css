@@ -115,7 +115,6 @@ i{
 #parallax1 {
   position: fixed;
   z-index: -30;
-  background: url('http://giant.gfycat.com/SpottedHarmoniousAlaskanmalamute.gif');
   background-size: 120%;   
   height: 100%;
   width: 100%;
@@ -207,6 +206,15 @@ footer p {
   padding: 6px 0 0 0;
   line-height: 5px;
 }
+
+.footer-link a {
+  color: #FFFFFF;
+}
+
+.footer-link a:hover {
+  color: #cc3366;
+}
+
 
 i {
   color: #ffffff;
