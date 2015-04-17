@@ -52,6 +52,7 @@ get_header();
             </div><!--end content-->
           </li>
           <?php endwhile; ?>
+        </ul>
       <?php endif; ?>
     <?php // End repeater field: ?>
 
@@ -59,57 +60,6 @@ get_header();
     		// End the loop.
     		endwhile;
     ?>
-    
-      <li>
-        <div class="guide-content"><!--This is just showing that the 100% is working-->
-          <h2>Content Title 2</h2>
-          <ul class="linklists">
-            <li><a href="#">Item 1</a></li>
-            <li><a href="#">Item 2</a></li>
-            <li><a href="#">Item 3</a></li>
-          </ul>
-        </div><!-- end content --> 
-      </li> <!-- end first column -->
-  
-      <li>
-        <div class="guide-content"><!--This is just showing that the 100% is working-->
-          <h2>Content Title 3</h2>
-          <ul class="linklists">
-            <li><a href="#">Item 1</a></li>
-            <li><a href="#">Item 2</a></li>
-            <li><a href="#">Item 4</a></li>
-            <li><a href="#">Item 5</a></li>
-          </ul>
-        </div><!-- end content -->
-      </li><!--end column-->
-    
-      <li>
-        <div class="guide-content"><!--This is just showing that the 100% is working-->
-          <h2>Content Title 4</h2>
-          <ul class="linklists">
-            <li><a href="#">Item 1</a></li>
-            <li><a href="#">Item 2</a></li>
-            <li><a href="#">Item 3</a></li>
-            <li><a href="#">Item 4</a></li>
-            <li><a href="#">Item 5</a></li>
-          </ul>
-        </div><!-- end content --> 
-      </li><!-- end second column -->
-      
-      <li>
-        <div class="guide-content"><!--This is just showing that the 100% is working-->
-          <h2>Content Title 5</h2>
-          <ul class="linklists">
-            <li><a href="#">Item 1</a></li>
-            <li><a href="#">Item 2</a></li>
-            <li><a href="#">Item 3</a></li>
-            <li><a href="#">Item 4</a></li>
-            <li><a href="#">Item 5</a></li>
-          </ul>
-        </div><!-- end content --> 
-      </li><!-- end second column -->
-    
-    </ul>
   
   </div> <!-- end third row -->
 </div><!-- end Welcome Guide -->
