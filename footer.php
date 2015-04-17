@@ -5,7 +5,7 @@
     <div class="row">
       <div class="column small-12">
         <div class="centered footer-link">
-          <p>Built by Omaha Code School. Hosted on Flywheel.</p>
+          <p>Built by <a href="http://omahacodeschool.com">Omaha Code School</a>. Hosted on <a href="http://getflywheel.com">Flywheel</a>.</p>
           <p>Want this for your city?</p>
           <p><a href="https://github.com/omahacodeschool/startup-community-guide">Download the open source Wordpress theme.</a></p>
         </div>
