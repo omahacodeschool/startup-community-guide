@@ -1,6 +1,15 @@
+- Page structure
+- How to add page/remove/modify
+- Where are the relevant theme files
+- What plugins you need
+- What fields do you need - Export fields.
+- Dependencies - Map, where can someone go to get the map.
+- Aware of wordpress admin-stuff, ie uploading images.
+
+
 === Startup Guide ===
 Contributors: Emily, CharDale, Rachel, Skyler
-Tags: black, blue, gray, pink, purple, white, yellow, dark, light, two-columns, left-sidebar, fixed-layout, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+Tags: blue, pink, white, grey, two-columns, responsive-layout, custom-header, custom-menu.
 Requires at least: 4.1
 Tested up to: 4.1
 Stable tag: 4.1
@@ -11,12 +20,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Startup guide theme.
 
 * Responsive Layout
-* Custom Colors
 * Custom Header
-* Social Links
-* Menu Description
-* Post Formats
-* The GPL v2.0 or later license. :) Use it to make something cool.
 
 == Installation ==
 
@@ -26,23 +30,14 @@ Startup guide theme.
 
 == Frequently Asked Questions ==
 
-= How do I change the color scheme? =
+How do I add menu items in the nav bar?
 
-You can change the colors of your site easily using Twenty Fifteen.
+*
 
-1. In your admin panel, go to Appearance -> Customize.
-4. Now you will see the Customizer and a tab called 'Colors'. Click this tab.
-5. You can now change your color scheme by selecting one of the predefined ones. Choose a color scheme you want from Base Color Scheme dropdown. You can preview the change in the Customizer.
-6. Should you wish to create your own color scheme or modify an existing one, you can by selecting the colors for each area listed.
-7. Once you are happy with your color changes you can click save and your changes will be reflected on your live site.
+How do I change the main image on the landing page?
 
-= How do I add the Social Links to the sidebar? =
+*
 
-Twenty Fifteen allows you display links to your social media profiles, like Twitter and Facebook, with icons.
-
-1. Create a new Custom Menu, and assign it to the Social Links Menu location.
-2. Add links to each of your social services using the Links panel.
-3. Icons for your social links will automatically appear if it's available.
 
 Available icons: (Linking to any of the following sites will automatically display its icon in your social menu).
 
