@@ -364,6 +364,10 @@ nav.fixed ul li {
   background: rgba(255,255,255, .9);
   box-shadow: 2px 2px 10px rgba(0,0,0,.5);
 }
+/* Move the fixed nav down a bit, to make room for the WP Admin topbar. */
+.admin-logged-in .fixed_nav{
+  top: 32px;
+}
 
 .fixed_nav ul{
   text-align: center;

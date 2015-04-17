@@ -37,7 +37,7 @@
       
 </head>
 
-<body>
+<body class="<?php if ( is_user_logged_in() ) { echo "admin-logged-in"; } ?> ">
   
   
 
